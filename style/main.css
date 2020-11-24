@@ -12,7 +12,7 @@
 /*elementos base*/
 body{
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
 
@@ -49,14 +49,14 @@ header nav a:hover{
     font-size: 16px;
     background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/img/Assassins_creed_embers/capa.jpg');
     height: 400px;
-    background-size: cover;
+    background-size: contain;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     background-repeat: no-repeat;
     background-position: right;
-    background-size: contain;
+
 }
 
 .filme-principal .descricao{
@@ -98,4 +98,8 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrossel-filmes{
+    margin-top: 5px;
 }
