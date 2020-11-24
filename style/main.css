@@ -16,8 +16,12 @@ body{
     color: white;
 }
 
+.container{
+    margin-left: 20px;
+}
+
 header .container{
-    margin-left: 5px;
+    /*margin-left: 5px;*/
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -50,6 +54,9 @@ header nav a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
 }
 
 .filme-principal .descricao{
@@ -61,6 +68,10 @@ header nav a:hover{
     margin-top: 15%;
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.filme-principal .container {
+    width: 70%;
 }
 
 .botao{
@@ -81,4 +92,10 @@ header nav a:hover{
 
 .botao i {
     margin-right: 8px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
